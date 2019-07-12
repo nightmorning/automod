@@ -1,4 +1,4 @@
-module automod
+module github.com/nightmorning/automod
 
 go 1.12
 

@@ -109,7 +109,7 @@ func (dbBase *DbBase) Init(file *File)  {
 		if _, ok := list[file.SavePath]; !ok {
 			savePath = "./gorm.txt"
 		}else{
-			savePath = file.SavePath
+			savePath = file.SavePath + "gorm.txt"
 		}
 
 		fileText, err := readAll(savePath)
